@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     title: 'Swara Music Streaming App',
     description: 'TikTok-style vertical discovery feed,Background music playback,Social features (comments, likes, sharing),User-generated video backgrounds (Vibes), Synchronized lyrics, Personalized recommendations, Premium subscription model',
-    image: '/swaramusic.jpg',
+    image: 'swaramusic.jpg',
     category: 'AI/Streaming',
     technologies: ['Kotlin 2.0 (K2 Compiler)','Jetpack Compose with Material 3','Media3 ExoPlayer','Retrofit + Kotlin Serialization'],
     live: 'https://swaramusic-com.onrender.com/',

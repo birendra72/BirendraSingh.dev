@@ -29,17 +29,6 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Universal Analyst Model (UAM)',
-    description: 'A comprehensive data analytics and machine learning platform providing automated data analysis, visualization, and predictive modeling. Features both v1 (Streamlit) and v2 (Web) interfaces.',
-    image: '/uam.png',
-    category: 'AI/ML',
-    technologies: ['Python', 'Machine Learning', 'Streamlit', 'Vercel', 'Data Analytics'],
-    github: 'https://github.com', // Add your GitHub link if available
-    live: 'https://uam-project-v1-0.vercel.app/',
-    featured: true,
-  },
-  {
-    id: 4,
     title: 'ChatBot FusionHub',
     description: 'A web-based AI chatbot integration platform. Built with a robust Django backend and an immersive Three.js + GSAP frontend for engaging user interactions.',
     image: '/api/placeholder/600/400',

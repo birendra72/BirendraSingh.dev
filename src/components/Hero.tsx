@@ -51,7 +51,7 @@ export const Hero: React.FC = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-            >
+            ><br></br>
               <span className="block">Hi, I'm</span>
               <span className="gradient-text block">Birendra Singh</span>
             </motion.h1>

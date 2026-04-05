@@ -8,6 +8,16 @@ import { Button } from '@/components/ui/button';
 const projects = [
   {
     id: 1,
+    title: 'Swara Music Streaming App',
+    description: 'TikTok-style vertical discovery feed,Background music playback,Social features (comments, likes, sharing),User-generated video backgrounds (Vibes), Synchronized lyrics, Personalized recommendations, Premium subscription model',
+    image: '/swaramusic.jpg',
+    category: 'AI/Streaming',
+    technologies: ['Kotlin 2.0 (K2 Compiler)','Jetpack Compose with Material 3','Media3 ExoPlayer','Retrofit + Kotlin Serialization'],
+    live: 'https://swaramusic-com.onrender.com/',
+    featured: true,
+  },
+  {
+    id: 2,
     title: 'Universal Analyst Model (UAM)',
     description: 'A comprehensive data analytics and machine learning platform providing automated data analysis, visualization, and predictive modeling. Features both v1 (Streamlit) and v2 (Web) interfaces.',
     image: '/uam.png',
@@ -18,7 +28,18 @@ const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
+    title: 'Universal Analyst Model (UAM)',
+    description: 'A comprehensive data analytics and machine learning platform providing automated data analysis, visualization, and predictive modeling. Features both v1 (Streamlit) and v2 (Web) interfaces.',
+    image: '/uam.png',
+    category: 'AI/ML',
+    technologies: ['Python', 'Machine Learning', 'Streamlit', 'Vercel', 'Data Analytics'],
+    github: 'https://github.com', // Add your GitHub link if available
+    live: 'https://uam-project-v1-0.vercel.app/',
+    featured: true,
+  },
+  {
+    id: 4,
     title: 'ChatBot FusionHub',
     description: 'A web-based AI chatbot integration platform. Built with a robust Django backend and an immersive Three.js + GSAP frontend for engaging user interactions.',
     image: '/api/placeholder/600/400',
@@ -29,7 +50,7 @@ const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Personal Portfolio',
     description: 'Fully responsive and interactive personal portfolio website designed to showcase projects and technical skills.',
     image: '/api/placeholder/600/400',

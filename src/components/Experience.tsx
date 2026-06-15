@@ -206,7 +206,7 @@ export const Experience: React.FC = () => {
                   Get In Touch
                 </button>
                 <button
-                  onClick={() => window.open('/BirendraSinghResume1.pdf', '_blank')}
+                  onClick={() => window.open('/BirendraSinghResume.pdf', '_blank')}
                   className="btn-secondary"
                 >
                   Download Resume
